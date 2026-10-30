@@ -18,11 +18,11 @@
 
 ### deployTxData
 
-`FinalizedDeployTxData`\<`C`\>
+`Ledger9FinalizedDeployTxData`\<`C`\>
 
 ### deployTxOptions?
 
-`DeployContractOptions`\<`C`\> \| `DeployTxOptions`\<`C`\>
+`Ledger9DeployContractOptions`\<`C`\> \| `DeployTxOptions`\<`C`\>
 
 ## Returns
 

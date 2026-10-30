@@ -8,7 +8,7 @@
 
 ## Call Signature
 
-> **submitCallTx**\<`C`, `K`\>(`providers`, `options`): `Promise`\<[`Ledger8FinalizedCallTxData`](../interfaces/Ledger8FinalizedCallTxData.md)\<`C`, `K`\>\>
+> **submitCallTx**\<`C`, `PCK`\>(`providers`, `options`): `Promise`\<[`Ledger8FinalizedCallTxData`](../interfaces/Ledger8FinalizedCallTxData.md)\<`C`, `PCK`\>\>
 
 The retained-era overload. Accepts a contract produced by the PREVIOUS Compact toolchain, passed as
 the raw contract instance rather than inside a `CompiledContract` container.
@@ -22,23 +22,23 @@ retained-era-native pipeline runs, after it the keep-state one.
 
 `C` *extends* [`Ledger8Contract`](../interfaces/Ledger8Contract.md)\<`unknown`\>
 
-#### K
+#### PCK
 
-`K` *extends* `string`
+`PCK` *extends* `string`
 
 ### Parameters
 
 #### providers
 
-[`Ledger8ContractProviders`](../type-aliases/Ledger8ContractProviders.md)\<`C`, `K`\>
+[`Ledger8ContractProviders`](../type-aliases/Ledger8ContractProviders.md)\<`C`, `PCK`\>
 
 #### options
 
-[`Ledger8CallTxOptions`](../type-aliases/Ledger8CallTxOptions.md)\<`C`, `K`\>
+[`Ledger8CallTxOptions`](../type-aliases/Ledger8CallTxOptions.md)\<`C`, `PCK`\>
 
 ### Returns
 
-`Promise`\<[`Ledger8FinalizedCallTxData`](../interfaces/Ledger8FinalizedCallTxData.md)\<`C`, `K`\>\>
+`Promise`\<[`Ledger8FinalizedCallTxData`](../interfaces/Ledger8FinalizedCallTxData.md)\<`C`, `PCK`\>\>
 
 ### See
 

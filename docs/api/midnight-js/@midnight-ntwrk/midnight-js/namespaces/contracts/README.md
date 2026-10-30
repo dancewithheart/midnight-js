@@ -8,45 +8,21 @@
 
 ## References
 
-### AnyEraContract
+### AnyContract
 
-Re-exports [AnyEraContract](../../contracts/type-aliases/AnyEraContract.md)
-
-***
-
-### AnyEraDeployedContract
-
-Re-exports [AnyEraDeployedContract](../../contracts/type-aliases/AnyEraDeployedContract.md)
+Re-exports [AnyContract](../../contracts/type-aliases/AnyContract.md)
 
 ***
 
-### AnyEraFinalizedCallTxData
+### AnyFinalizedCallTxData
 
-Re-exports [AnyEraFinalizedCallTxData](../../contracts/type-aliases/AnyEraFinalizedCallTxData.md)
-
-***
-
-### AnyEraFoundContract
-
-Re-exports [AnyEraFoundContract](../../contracts/type-aliases/AnyEraFoundContract.md)
+Re-exports [AnyFinalizedCallTxData](../../contracts/type-aliases/AnyFinalizedCallTxData.md)
 
 ***
 
-### AnyEraMaintenanceTxData
+### AnySubmittedCallTx
 
-Re-exports [AnyEraMaintenanceTxData](../../contracts/type-aliases/AnyEraMaintenanceTxData.md)
-
-***
-
-### AnyEraSubmittedCallTx
-
-Re-exports [AnyEraSubmittedCallTx](../../contracts/type-aliases/AnyEraSubmittedCallTx.md)
-
-***
-
-### AnyEraTxFailedError
-
-Re-exports [AnyEraTxFailedError](../../contracts/classes/AnyEraTxFailedError.md)
+Re-exports [AnySubmittedCallTx](../../contracts/type-aliases/AnySubmittedCallTx.md)
 
 ***
 
@@ -101,12 +77,6 @@ Re-exports [CallResult](../../contracts/interfaces/CallResult.md)
 ### CallResultPrivate
 
 Re-exports [CallResultPrivate](../../contracts/type-aliases/CallResultPrivate.md)
-
-***
-
-### CallTxFailedError
-
-Re-exports [CallTxFailedError](../../contracts/classes/CallTxFailedError.md)
 
 ***
 
@@ -314,12 +284,6 @@ Re-exports [DeployedContract](../../contracts/type-aliases/DeployedContract.md)
 
 ***
 
-### DeployTxFailedError
-
-Re-exports [DeployTxFailedError](../../contracts/classes/DeployTxFailedError.md)
-
-***
-
 ### DeployTxOptions
 
 Re-exports [DeployTxOptions](../../contracts/type-aliases/DeployTxOptions.md)
@@ -350,27 +314,27 @@ Re-exports [DISPATCH_BREADCRUMB_MESSAGE](../../contracts/variables/DISPATCH_BREA
 
 ***
 
-### EraArtifactMismatchError
-
-Re-exports [EraArtifactMismatchError](../../contracts/classes/EraArtifactMismatchError.md)
-
-***
-
-### EraArtifactMismatchOptions
-
-Re-exports [EraArtifactMismatchOptions](../../contracts/interfaces/EraArtifactMismatchOptions.md)
-
-***
-
-### EraArtifactMismatchReason
-
-Re-exports [EraArtifactMismatchReason](../../contracts/type-aliases/EraArtifactMismatchReason.md)
-
-***
-
 ### EraInvariantViolationError
 
 Re-exports [EraInvariantViolationError](../../contracts/classes/EraInvariantViolationError.md)
+
+***
+
+### EraMismatchError
+
+Re-exports [EraMismatchError](../../contracts/classes/EraMismatchError.md)
+
+***
+
+### EraMismatchOptions
+
+Re-exports [EraMismatchOptions](../../contracts/interfaces/EraMismatchOptions.md)
+
+***
+
+### EraMismatchReason
+
+Re-exports [EraMismatchReason](../../contracts/type-aliases/EraMismatchReason.md)
 
 ***
 
@@ -389,6 +353,12 @@ Re-exports [FinalizedDeployTxData](../../contracts/type-aliases/FinalizedDeployT
 ### FinalizedDeployTxDataBase
 
 Re-exports [FinalizedDeployTxDataBase](../../contracts/interfaces/FinalizedDeployTxDataBase.md)
+
+***
+
+### FinalizedMaintenanceTxData
+
+Re-exports [FinalizedMaintenanceTxData](../../contracts/type-aliases/FinalizedMaintenanceTxData.md)
 
 ***
 
@@ -488,12 +458,6 @@ Re-exports [IndexerInconsistencyError](../../contracts/classes/IndexerInconsiste
 
 ***
 
-### InsertVerifierKeyTxFailedError
-
-Re-exports [InsertVerifierKeyTxFailedError](../../contracts/classes/InsertVerifierKeyTxFailedError.md)
-
-***
-
 ### isLedger8Result
 
 Re-exports [isLedger8Result](../../contracts/variables/isLedger8Result.md)
@@ -506,9 +470,9 @@ Re-exports [isTransactionContext](../../contracts/variables/isTransactionContext
 
 ***
 
-### Ledger8
+### Ledger8AmbiguousEntryPointError
 
-Re-exports [Ledger8](../../contracts/namespaces/Ledger8/README.md)
+Re-exports [Ledger8AmbiguousEntryPointError](../../contracts/classes/Ledger8AmbiguousEntryPointError.md)
 
 ***
 
@@ -545,6 +509,18 @@ Re-exports [Ledger8CallTxOptionsWithPrivateStateId](../../contracts/type-aliases
 ### Ledger8CallTxTarget
 
 Re-exports [Ledger8CallTxTarget](../../contracts/interfaces/Ledger8CallTxTarget.md)
+
+***
+
+### Ledger8CallUnsupportedError
+
+Re-exports [Ledger8CallUnsupportedError](../../contracts/classes/Ledger8CallUnsupportedError.md)
+
+***
+
+### Ledger8CallUnsupportedReason
+
+Re-exports [Ledger8CallUnsupportedReason](../../contracts/type-aliases/Ledger8CallUnsupportedReason.md)
 
 ***
 
@@ -716,15 +692,51 @@ Re-exports [Ledger8InitialStateResult](../../contracts/interfaces/Ledger8Initial
 
 ***
 
+### Ledger8KeyedOperation
+
+Re-exports [Ledger8KeyedOperation](../../contracts/type-aliases/Ledger8KeyedOperation.md)
+
+***
+
+### Ledger8NotStoredError
+
+Re-exports [Ledger8NotStoredError](../../contracts/classes/Ledger8NotStoredError.md)
+
+***
+
+### Ledger8NotStoredStage
+
+Re-exports [Ledger8NotStoredStage](../../contracts/type-aliases/Ledger8NotStoredStage.md)
+
+***
+
 ### Ledger8PrivateState
 
 Re-exports [Ledger8PrivateState](../../contracts/type-aliases/Ledger8PrivateState.md)
 
 ***
 
+### Ledger8SigningKeyError
+
+Re-exports [Ledger8SigningKeyError](../../contracts/classes/Ledger8SigningKeyError.md)
+
+***
+
+### Ledger8SigningKeyReason
+
+Re-exports [Ledger8SigningKeyReason](../../contracts/type-aliases/Ledger8SigningKeyReason.md)
+
+***
+
 ### Ledger8SubmittedCallTx
 
 Re-exports [Ledger8SubmittedCallTx](../../contracts/interfaces/Ledger8SubmittedCallTx.md)
+
+***
+
+### Ledger8UnconfirmedError
+
+Re-exports [Ledger8UnconfirmedError](../../contracts/classes/Ledger8UnconfirmedError.md)
 
 ***
 
@@ -896,12 +908,6 @@ Re-exports [LedgerParametersUnservedError](../../contracts/classes/LedgerParamet
 
 ***
 
-### MixedEraScopeError
-
-Re-exports [MixedEraScopeError](../../contracts/classes/MixedEraScopeError.md)
-
-***
-
 ### NetworkVersionReadFailedError
 
 Re-exports [NetworkVersionReadFailedError](../../contracts/classes/NetworkVersionReadFailedError.md)
@@ -929,24 +935,6 @@ Re-exports [ProviderFailedError](../../contracts/classes/ProviderFailedError.md)
 ### PublicStatesEraMismatchError
 
 Re-exports [PublicStatesEraMismatchError](../../contracts/classes/PublicStatesEraMismatchError.md)
-
-***
-
-### RemoveVerifierKeyTxFailedError
-
-Re-exports [RemoveVerifierKeyTxFailedError](../../contracts/classes/RemoveVerifierKeyTxFailedError.md)
-
-***
-
-### ReplaceMaintenanceAuthorityTxFailedError
-
-Re-exports [ReplaceMaintenanceAuthorityTxFailedError](../../contracts/classes/ReplaceMaintenanceAuthorityTxFailedError.md)
-
-***
-
-### ScopedTransactionEraUnsupportedError
-
-Re-exports [ScopedTransactionEraUnsupportedError](../../contracts/classes/ScopedTransactionEraUnsupportedError.md)
 
 ***
 
@@ -1064,15 +1052,21 @@ Re-exports [TransactionContext](../../contracts/interfaces/TransactionContext.md
 
 ***
 
+### TxFailedDetails
+
+Re-exports [TxFailedDetails](../../contracts/interfaces/TxFailedDetails.md)
+
+***
+
 ### TxFailedError
 
 Re-exports [TxFailedError](../../contracts/classes/TxFailedError.md)
 
 ***
 
-### UnknownResultEraError
+### TxFailedOperation
 
-Re-exports [UnknownResultEraError](../../contracts/classes/UnknownResultEraError.md)
+Re-exports [TxFailedOperation](../../contracts/type-aliases/TxFailedOperation.md)
 
 ***
 

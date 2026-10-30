@@ -66,7 +66,7 @@ produced it. Both eras carry it.
 In a scope that made several calls this names the LAST one, which is the
 call `public`, `private` and `calls` also describe: this type is one
 call's result, not the transaction's. The transaction may carry more, and
-a failure reports all of them -- `CallTxFailedError`'s `circuitId` is the
+a failure reports all of them -- `TxFailedError`'s `circuitId` is the
 accumulated list. The two are answering different questions, and a caller
 routing on this one is routing on the call, not the transaction.
 

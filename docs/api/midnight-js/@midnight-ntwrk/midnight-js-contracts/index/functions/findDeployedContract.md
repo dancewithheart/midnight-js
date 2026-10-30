@@ -38,7 +38,7 @@ ContractNotFoundError No contract state could be found at `contractAddress`.
 
 ## Throws
 
-Ledger8ContractStateUnsupportedError The current contract state was written by the v8
+EraMismatchError with reason `'ledger8-contract-state-unsupported'` The current contract state was written by the v8
 ledger, and these artifacts come from the current toolchain.
 
 ## Throws
@@ -52,7 +52,7 @@ UnknownLedgerVersionError The deploy record carries no readable era tag.
 
 ## Throws
 
-UnrecognisedEraTagError The deploy state is not a `SerializedState`: the shape of a pre-5.0.0
+UnknownLedgerVersionError The deploy state is not a `SerializedState`: the shape of a pre-5.0.0
                                 provider.
 
 ## Throws
@@ -72,7 +72,7 @@ IncompleteFindContractPrivateStateConfig If an `initialPrivateState` is given bu
 
 ## Throws
 
-EraArtifactMismatchError If `options.compiledContract` belongs to neither Compact era, or
+EraMismatchError If `options.compiledContract` belongs to neither Compact era, or
                                  is a raw current-era contract instance passed instead of its
                                  `CompiledContract` container, or its artifacts declare no
                                  toolchain this framework can place. Raised before anything is

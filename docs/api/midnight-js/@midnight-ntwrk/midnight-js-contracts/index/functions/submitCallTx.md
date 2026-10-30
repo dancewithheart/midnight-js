@@ -18,13 +18,13 @@ Midnight transactions execute in two phases:
 
 **Guaranteed Phase Failure:**
 - Transaction is rejected and not included in the blockchain
-- `CallTxFailedError` is thrown with transaction data and circuit ID
+- `TxFailedError` is thrown with transaction data and circuit ID
 - Private state updates are NOT stored (state remains unchanged)
 - No on-chain record of the failed transaction
 
 **Fallible Phase Failure:**
 - Transaction is recorded on-chain with non-`SucceedEntirely` status
-- `CallTxFailedError` is thrown with transaction data and circuit ID
+- `TxFailedError` is thrown with transaction data and circuit ID
 - Private state updates are NOT stored (state remains unchanged)
 - Transaction appears in blockchain history as partial success
 
@@ -69,7 +69,7 @@ or transmitting the result.
 
 ## Call Signature
 
-> **submitCallTx**\<`C`, `K`\>(`providers`, `options`): `Promise`\<[`Ledger8FinalizedCallTxData`](../interfaces/Ledger8FinalizedCallTxData.md)\<`C`, `K`\>\>
+> **submitCallTx**\<`C`, `PCK`\>(`providers`, `options`): `Promise`\<[`Ledger8FinalizedCallTxData`](../interfaces/Ledger8FinalizedCallTxData.md)\<`C`, `PCK`\>\>
 
 The retained-era overload. Accepts a contract produced by the PREVIOUS Compact toolchain, passed as
 the raw contract instance rather than inside a `CompiledContract` container.
@@ -83,23 +83,23 @@ retained-era-native pipeline runs, after it the keep-state one.
 
 `C` *extends* [`Ledger8Contract`](../interfaces/Ledger8Contract.md)\<`unknown`\>
 
-#### K
+#### PCK
 
-`K` *extends* `string`
+`PCK` *extends* `string`
 
 ### Parameters
 
 #### providers
 
-[`Ledger8ContractProviders`](../type-aliases/Ledger8ContractProviders.md)\<`C`, `K`\>
+[`Ledger8ContractProviders`](../type-aliases/Ledger8ContractProviders.md)\<`C`, `PCK`\>
 
 #### options
 
-[`Ledger8CallTxOptions`](../type-aliases/Ledger8CallTxOptions.md)\<`C`, `K`\>
+[`Ledger8CallTxOptions`](../type-aliases/Ledger8CallTxOptions.md)\<`C`, `PCK`\>
 
 ### Returns
 
-`Promise`\<[`Ledger8FinalizedCallTxData`](../interfaces/Ledger8FinalizedCallTxData.md)\<`C`, `K`\>\>
+`Promise`\<[`Ledger8FinalizedCallTxData`](../interfaces/Ledger8FinalizedCallTxData.md)\<`C`, `PCK`\>\>
 
 ### See
 

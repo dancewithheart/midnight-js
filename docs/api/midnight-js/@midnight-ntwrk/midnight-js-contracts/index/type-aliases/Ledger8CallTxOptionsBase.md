@@ -4,9 +4,9 @@
 
 [Midnight.js API Reference](../../../../packages.md) / [@midnight-ntwrk/midnight-js-contracts](../../README.md) / [index](../README.md) / Ledger8CallTxOptionsBase
 
-# Type Alias: Ledger8CallTxOptionsBase\<C, K\>
+# Type Alias: Ledger8CallTxOptionsBase\<C, PCK\>
 
-> **Ledger8CallTxOptionsBase**\<`C`, `K`\> = [`Ledger8CircuitParameters`](Ledger8CircuitParameters.md)\<`C`, `K`\> *extends* \[\] ? [`Ledger8CallTxTarget`](../interfaces/Ledger8CallTxTarget.md)\<`C`, `K`\> : [`Ledger8CallTxTarget`](../interfaces/Ledger8CallTxTarget.md)\<`C`, `K`\> & `object`
+> **Ledger8CallTxOptionsBase**\<`C`, `PCK`\> = [`Ledger8CircuitParameters`](Ledger8CircuitParameters.md)\<`C`, `PCK`\> *extends* \[\] ? [`Ledger8CallTxTarget`](../interfaces/Ledger8CallTxTarget.md)\<`C`, `PCK`\> : [`Ledger8CallTxTarget`](../interfaces/Ledger8CallTxTarget.md)\<`C`, `PCK`\> & `object`
 
 Base configuration for a retained-era call transaction.
 
@@ -21,6 +21,6 @@ circuit.
 
 `C` *extends* [`Ledger8Contract`](../interfaces/Ledger8Contract.md)
 
-### K
+### PCK
 
-`K` *extends* [`Ledger8CircuitId`](Ledger8CircuitId.md)\<`C`\>
+`PCK` *extends* [`Ledger8CircuitId`](Ledger8CircuitId.md)\<`C`\>

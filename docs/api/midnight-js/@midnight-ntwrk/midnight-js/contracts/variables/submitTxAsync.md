@@ -52,7 +52,7 @@ InvalidTransactionHandleError if `unprovenTx` is not an unproven handle of this 
 
 ## Throws
 
-EraArtifactMismatchError for a transaction whose era is not the head's.
+EraMismatchError for a transaction whose era is not the head's.
 
 ## Throws
 

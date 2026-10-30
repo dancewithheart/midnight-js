@@ -18,14 +18,14 @@ Midnight transactions execute in two phases:
 
 **Guaranteed Phase Failure:**
 - Transaction is rejected and not included in the blockchain
-- `DeployTxFailedError` is thrown with transaction data
+- `TxFailedError` is thrown with transaction data
 - Private state (if `privateStateId` provided) is NOT stored
 - Contract signing key is NOT stored in private state provider
 - Contract is NOT deployed
 
 **Fallible Phase Failure:**
 - Transaction is recorded on-chain with non-`SucceedEntirely` status
-- `DeployTxFailedError` is thrown with transaction data
+- `TxFailedError` is thrown with transaction data
 - Private state (if `privateStateId` provided) is NOT stored
 - Contract signing key is NOT stored in private state provider
 - Transaction appears in blockchain history as partial success

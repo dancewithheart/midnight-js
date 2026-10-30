@@ -14,4 +14,4 @@ A finalized deploy. Generic code names an era: `Ledger9FinalizedDeployTxData<C>`
 
 ### C
 
-`C` *extends* [`AnyEraContract`](AnyEraContract.md)
+`C` *extends* [`AnyContract`](AnyContract.md)

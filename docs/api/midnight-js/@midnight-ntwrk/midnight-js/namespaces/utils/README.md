@@ -230,18 +230,6 @@ Re-exports [isValidSigningKey](../../utils/variables/isValidSigningKey.md)
 
 ***
 
-### Ledger8ValueUnsupportedError
-
-Re-exports [Ledger8ValueUnsupportedError](../../utils/classes/Ledger8ValueUnsupportedError.md)
-
-***
-
-### Ledger9Variant
-
-Re-exports [Ledger9Variant](../../utils/type-aliases/Ledger9Variant.md)
-
-***
-
 ### ledgerVersionOfContractState
 
 Re-exports [ledgerVersionOfContractState](../../utils/variables/ledgerVersionOfContractState.md)
@@ -296,6 +284,12 @@ Re-exports [MidnightJsErrorCode](../../utils/type-aliases/MidnightJsErrorCode.md
 
 ***
 
+### MidnightNetwork
+
+Re-exports [MidnightNetwork](../../utils/interfaces/MidnightNetwork.md)
+
+***
+
 ### MIN\_CHARACTER\_CLASSES
 
 Re-exports [MIN_CHARACTER_CLASSES](../../utils/variables/MIN_CHARACTER_CLASSES.md)
@@ -311,6 +305,12 @@ Re-exports [MIN_PASSWORD_LENGTH](../../utils/variables/MIN_PASSWORD_LENGTH.md)
 ### MIN\_SEQUENTIAL\_LENGTH
 
 Re-exports [MIN_SEQUENTIAL_LENGTH](../../utils/variables/MIN_SEQUENTIAL_LENGTH.md)
+
+***
+
+### networks
+
+Re-exports [networks](../../utils/variables/networks.md)
 
 ***
 
@@ -404,12 +404,6 @@ Re-exports [ProviderErrorCode](../../utils/type-aliases/ProviderErrorCode.md)
 
 ***
 
-### requireLedger9
-
-Re-exports [requireLedger9](../../utils/variables/requireLedger9.md)
-
-***
-
 ### SOURCE\_PACKAGES
 
 Re-exports [SOURCE_PACKAGES](../../utils/variables/SOURCE_PACKAGES.md)
@@ -443,12 +437,6 @@ Re-exports [ttlOneHour](../../utils/variables/ttlOneHour.md)
 ### UnhandledUnionMemberError
 
 Re-exports [UnhandledUnionMemberError](../../utils/classes/UnhandledUnionMemberError.md)
-
-***
-
-### UnrecognisedEraTagError
-
-Re-exports [UnrecognisedEraTagError](../../utils/classes/UnrecognisedEraTagError.md)
 
 ***
 
